@@ -58,9 +58,79 @@ fieldset {
    Author's custom styles
    ========================================================================== */
 
+/* ----- ----- Google fonts ----- ----- */
+/*
+  font-family: 'Bellefair', serif;
+  font-family: 'Lato', sans-serif;
+*/
+
+*, *:before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+}
+
+.container{
+  width: auto;
+  margin: 40px;
+  padding: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Lato', sans-serif;
+  color: #000;
+}
+
+p{
+  font-size: 24px;
+  color: #666666;
+  font-family: 'Bellefair', serif;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+a:hover{
+  color: #16ED9D;
+}
+
+.menu{
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  margin: -50px 0 0 0;
+  padding: 50px;
+  padding-top: 125px;
+  background: #fafafa;
+  list-style-type: none;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+.menu li{
+  padding: 10px 0;
+  font-size: 22px;
+  
+}
+
+.menu.open{
+  margin: -50px 0 0 0;
+  transform: translate(0%, 0);
+}
 
 
-   
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
