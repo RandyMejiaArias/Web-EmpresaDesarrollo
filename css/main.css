@@ -320,6 +320,52 @@ ul, p{
   transform: rotate(-8deg);
 }
 
+/* ----- ----- Services ----- ----- */
+.services{
+  background: #f2f2f2;
+  padding: 50px 0;
+}
+
+.article-service .article-service{
+  margin-bottom: 20px;
+}
+
+.article-service .icon-service{
+  float: left;
+  background: #16de9d;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #16ed9d;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.article-service .icon-service i{
+  color: #fff;
+  font-size: 24px;
+}
+
+.article-service .icon-service:hover{
+  background: #fff;
+}
+
+.article-service .icon-service:hover i{
+  color: #16de9d;
+}
+
+.article-service .title-service{
+  margin-left: 80px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.article-service .description-service{
+  margin-left: 80px;
+  line-height: 24px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
