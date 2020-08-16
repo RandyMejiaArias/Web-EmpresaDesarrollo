@@ -565,6 +565,48 @@ ul, p{
   font-size: 25px;
 }
 
+/* ----- ----- Contact Form ----- ----- */
+.contact{
+  background: #c4c4c4;
+  padding: 50px 0;
+}
+
+@media only screen and (min-width: 768px){
+  .booking-contact{
+    margin: 15px 250px 15px 250px;
+  }
+}
+
+.booking-contact .field{
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.booking-contact .field input, .booking-contact .field textarea{
+  min-width: 100%;
+  border: 2px solid #16de9d;
+  padding: 15px 10px;
+}
+
+.booking-contact .field textarea{
+  height: 200px;
+}
+
+.form-button{
+  border: none;
+  margin: 0 auto;
+  display: block;
+  padding: 20px 25px 20px 25px;
+  text-align: center;
+  background-color: #16de9d;
+  color: #fff;
+
+}
+
+.form-button:hover{
+  background-color: #24d80e;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
