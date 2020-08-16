@@ -378,10 +378,11 @@ ul, p{
   background-repeat: no-repeat;
   position: relative;
   height: 260px;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   display: table;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .proyects .portfolio-icon .details{
