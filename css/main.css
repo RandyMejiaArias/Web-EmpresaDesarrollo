@@ -399,6 +399,7 @@ ul, p{
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  transform: translate3d(0, -15px, 0);
   -webkit-transform: translate3d(0, -15px, 0);
   color: #000;
 }
@@ -439,6 +440,7 @@ ul, p{
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
+  transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
