@@ -113,7 +113,7 @@ a:hover{
   background: #fafafa;
   list-style-type: none;
   transform-origin: 0% 0%;
-  z-index: 1;
+  z-index: 2;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
@@ -460,7 +460,7 @@ ul, p{
 }
 
 .content-price.general-price{
-  z-index: 99;;
+  z-index: 0;
 }
 
 .content-price h3{
@@ -537,7 +537,7 @@ ul, p{
 .content-price.offered{
   margin-top: -20px;
   position: relative;
-  z-index: 9999;
+  z-index: 1;
   -webkit-box-shadow: 0 2 20px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2 20px rgba(0, 0, 0, 0.2);
 }

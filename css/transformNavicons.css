@@ -14,7 +14,7 @@
   cursor: pointer;
   user-select: none;
   opacity: 0.8;
-  z-index: 2;
+  z-index: 3;
 }
 
 .navicon-button .navicon::before, .navicon-button .navicon::after{
