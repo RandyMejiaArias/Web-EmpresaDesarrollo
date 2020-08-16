@@ -368,7 +368,7 @@ ul, p{
 
 /* ----- ----- Portfolio ----- ----- */
 .proyects{
-  background: #e2e2e2;
+  background: #fff;
   padding: 50px 0;
 }
 
@@ -427,7 +427,7 @@ ul, p{
 
 /* ----- ----- Prices ----- ----- */
 .prices{
-  background: #e6e6e6;
+  background: #f2f2f2;
   padding: 50px 0;
 }
 
@@ -526,7 +526,7 @@ ul, p{
 }
 
 .button-price:hover{
-  background: #c3bf29;
+  background: #3bbec0;
 }
 
 .content-price p{
@@ -567,7 +567,7 @@ ul, p{
 
 /* ----- ----- Contact Form ----- ----- */
 .contact{
-  background: #c4c4c4;
+  background: #e2e2e2;
   padding: 50px 0;
 }
 
@@ -604,7 +604,57 @@ ul, p{
 }
 
 .form-button:hover{
-  background-color: #24d80e;
+  background-color: #3bbec0;
+}
+
+/* ----- ----- Footer ----- ----- */
+.footer{
+  background-color: #f2f2f2;
+}
+
+footer{
+  text-align: center;
+  padding: 25px 0;
+}
+
+footer p{
+  color: #a4a4a4;
+  font-family: 'Bellefair', serif;
+  font-size: 24px;
+}
+
+.social-menu{
+  margin-bottom: 25px
+}
+
+.social-networks{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.social-networks li{
+  display: inline-block;
+}
+
+.social-networks a{
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #16de9d;
+  color: #fff;
+  transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+}
+
+.social-networks a:hover{
+  background-color: #3bbec0;
+}
+
+.social-menu .social-networks li a{
+  margin: 0 5px;
 }
 
 /* ==========================================================================
